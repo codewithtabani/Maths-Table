@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Poppins' ,san/-serif; */
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
+    box-sizing: border-box;
+}
+body{
+    background-color: #002339 !important;
+    color: #fff;
+}
+.container-fluid{
+    margin: 12%;
+}
+.container{
+}
+.container  h1{
+    font-weight: 500;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 50px;
+}
+.container h1 span{
+    color: #019f55;
+}
+.container input{
+    border: none;
+    outline: none;
+    margin-right: 20px;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.container input:focus{
+    border: 3px solid #019f55;
+}
+.container button{
+    background-color:#019f55 ;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 26px ;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.container button:hover{
+    background-color: transparent;
+    border: 3px solid #019f55;
+    transition: 1s ease;
+}
+.container button img{
+    margin-right: 10px;
+    width: 28px;
+}
+@media (max-width:600px) {
+    
+    .container button{
+        font-size: 16px;
+    }
+.container button img{
+    width: 20px;
+}
+}
+@media (max-width:300px){
+    .container .heading{
+        font-size: 25px;
+    }
+    .container .head{
+        font-size: 22px;
+    }
+}
